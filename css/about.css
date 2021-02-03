@@ -1,0 +1,109 @@
+body {
+	margin: 0;
+}
+
+main {
+    font-family: calibri;
+    text-align: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.about {
+	color: white;
+	padding: 12px;
+	margin-bottom: 16px;
+    background: #684797;
+}
+
+h1 {
+	font-size: 2.3rem;
+	margin: 18px;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	column-gap: 24px;
+	height: auto;
+	margin: 32px;
+}
+
+.card {
+	display: inline-block;
+	width: 16vw;
+	box-shadow: 6px 4px 30px lightgray;
+	transition: transform 0.1s linear;
+	background-color: #fafafa;
+	padding: 16px;
+	height: calc(100% - 2 * 16px);
+	border-radius: 32px;
+}
+
+.card:hover {
+	transform: translateY(-8px);
+	background-color: white;
+}
+
+.card img {
+	width: 62%;
+}
+
+h2 {
+	font-weight: lighter;
+	margin-bottom: 12px;
+}
+
+hr {
+	width: 70%;
+	border: none;
+	border-bottom: 1px solid #cecece;
+}
+
+.name {
+	color: #1c21a9;
+	font-weight: bold;
+	margin-right: 4px;
+}
+
+.company-info-block {
+	color: white;
+	background-color: #2d2d2d;
+	flex-grow: 1;
+	font-size: 1.4rem;
+	display: flex;
+	justify-content: center;
+	column-gap: 40px;
+}
+
+.company-logo {
+	height: 70%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.company-info {
+	text-align: left;
+	width: 800px;
+}
+
+.company-info p {
+	margin-left: 18px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	background-color: #0a630a;
+	padding: 16px;
+	border-radius: 24px;
+	width: 200px;
+	display: block;
+	text-align: center;
+}
+
+a:hover {
+	background-color: #378e37;
+}
